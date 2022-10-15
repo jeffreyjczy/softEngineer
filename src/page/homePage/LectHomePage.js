@@ -36,13 +36,17 @@ export default function LectHomePage() {
     var name = role.name.split(" ")[1]
 
     var isSubmitted = false;
+    var isCom = false
     for (var i = 0; i < wholeData.length; i++) {
         if (wholeData[i].personalInfo.firstName == name) {
             isSubmitted = true;
             wholeData = wholeData[i]
         }
     }
-    console.log(wholeData)
+    
+    if (wholeData.HRStatus == 'Approved' &&  wholeData.AAStatus == 'Approved' && wholeData.IRASStatus == 'Approved') {
+        isCom = true
+    }
 
 
     return (
@@ -64,7 +68,7 @@ export default function LectHomePage() {
                         No form submitted
                     </div>
                 }
-                {isSubmitted &&
+                {isSubmitted && !isCom &&
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginLeft: '5px', marginTop: '10px', width: '63vw', height: '55px', paddingLeft: '20px', alignItems: 'center', fontSize: '1.5rem', border: '1px solid #e7e7e7', borderRadius: '28px', boxShadow: '0px 0px 20px -18px #000000', }}>
                         <div>
                             Academic Year 2022 Form
@@ -82,6 +86,20 @@ export default function LectHomePage() {
                             IRAS: {wholeData.IRASStatus}
                         </div>
                         <button onClick={() => { navigate('/lectpreviewpage') }} style={{ width: '55px', marginRight: '20px', backgroundColor: '#e7e7e7', color: 'black', borderRadius: '8px', border: '2px solid #e7e7e7' }}>View</button>
+
+
+                    </div>
+                }
+                {isSubmitted && isCom &&
+                    <div style={{ display: 'flex', justifyContent: 'space-between', marginLeft: '5px', marginTop: '10px', width: '63vw', height: '55px', paddingLeft: '20px', alignItems: 'center', fontSize: '1.5rem', border: '1px solid #e7e7e7', borderRadius: '28px', boxShadow: '0px 0px 20px -18px #000000', }}>
+                        <div>
+                            Academic Year 2022 Form
+                        </div>
+                        <div style={{ fontSize: '1rem' }}>
+                            Commity: {wholeData.ComStatus}
+                        </div>
+                        
+                        <button onClick={() => { navigate(`/compreviewpage1?id=${wholeData.personalInfo.code}`) }} style={{ width: '55px', marginRight: '20px', backgroundColor: '#e7e7e7', color: 'black', borderRadius: '8px', border: '2px solid #e7e7e7' }}>View</button>
 
 
                     </div>

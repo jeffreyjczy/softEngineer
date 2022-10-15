@@ -8,7 +8,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 
 
-export default function ComPreviewPage() {
+export default function ComPreviewPage1() {
     const { control, register, unregister, handleSubmit, watch, formState: { errors } } = useForm();
     const navigate = useNavigate();
     var wholeData1 = JSON.parse(localStorage.getItem('wholeData'));
@@ -573,9 +573,9 @@ export default function ComPreviewPage() {
 
 
             <Container style={{ width: '75%', maxWidth: '80%', margin: 'auto', textAlign: 'right' }}>
-                <Button style={{ width: '80px', height: '40px', marginRight: '20px', backgroundColor: '#e7e7e7', color: 'black', borderRadius: '8px', border: '2px solid #e7e7e7' }} onClick={() => { navigate('/comhomepage') }}> Return </Button>
+                <Button style={{ width: '80px', height: '40px', marginRight: '20px', backgroundColor: '#e7e7e7', color: 'black', borderRadius: '8px', border: '2px solid #e7e7e7' }} onClick={() => { navigate('/lecthomepage') }}> Return </Button>
 
-                <Button style={{ width: '80px', height: '40px', marginRight: '20px', backgroundColor: '#e7e7e7', color: 'black', borderRadius: '8px', border: '2px solid #e7e7e7' }} onClick={handleSubmit(onSubmit)}> Approve </Button>
+                
             </Container>
             <br></br>
 

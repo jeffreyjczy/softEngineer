@@ -18,6 +18,7 @@ import IRASPreviewPage from'./page/previewPage/IRASPreviewPage'
 import IRASHomePage from'./page/homePage/IRASHomePage'
 
 import ComPreviewPage from'./page/previewPage/ComPreviewPage'
+import ComPreviewPage1 from'./page/previewPage/ComPreviewPage1'
 import ComHomePage from'./page/homePage/ComHomePage'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -42,7 +43,7 @@ function App() {
           <Route exact path="/AAPreviewPage" element={<AAPreviewPage />} />
           <Route exact path="/IRASPreviewPage" element={<IRASPreviewPage />} />
           <Route exact path="/ComPreviewPage" element={<ComPreviewPage />} />
-
+          <Route exact path="/ComPreviewPage1" element={<ComPreviewPage1 />} />
           {/* Homepage */}
           <Route exact path="/lecthomepage" element={<LectHomePage />} />
           <Route exact path="/deanhomepage" element={<DeanHomePage />} />
