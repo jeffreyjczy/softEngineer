@@ -1,0 +1,291 @@
+[
+    {
+        "AAStatus": "Pending",
+        "DeanStatus": "Approved",
+        "HRStatus": "Pending",
+        "IRASStatus": "Pending",
+        "ComStatus": "Pending",
+        "personalInfo": {
+            "firstName": "Jeffrey",
+            "lastName": "Chong",
+            "code": "6310023",
+            "email": "jeffrey@gmail.com",
+            "school": "Vincent Mary School of Science and Technology",
+            "department": "Computer Science",
+            "telephone": "0954567895",
+            "title": "Prof.Dr."
+        },
+        "researchArticle": [
+            {
+                "title": "Programing",
+                "weight": "3",
+                "contribution": "50"
+            },
+            {
+                "title": "Research 1",
+                "weight": "3",
+                "contribution": "50"
+            }
+        ],
+        "under_senior": [
+            {
+                "topic": "BikeBuster",
+                "students": "Jeffrey Chong",
+                "grade": "A"
+            },
+            {
+                "topic": "AAA",
+                "students": "student2",
+                "grade": "B"
+            },
+            {
+                "topic": "BBB",
+                "students": "student3",
+                "grade": "C"
+            }
+        ],
+        "sem1": [
+            {
+                "courseCode": "CSx2001",
+                "courseCredit": "3",
+                "courseTitle": "Programming",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            },
+            {
+                "courseCode": "CSx2001",
+                "courseCredit": "3",
+                "courseTitle": "C#",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem2": [
+            {
+                "courseCode": "CSx3001",
+                "courseCredit": "3",
+                "courseTitle": "Python",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            },
+            {
+                "courseCode": "CSx2001",
+                "courseCredit": "3",
+                "courseTitle": "C++",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem3": [],
+        "under_independent": [],
+        "grad_thesis": [],
+        "grad_independent": [],
+        "academicArticle": [],
+        "bookArticle": []
+    },
+    {
+        "AAStatus": "Pending",
+        "DeanStatus": "Pending",
+        "HRStatus": "Pending",
+        "IRASStatus": "Pending",
+        "ComStatus": "Pending",
+        "academicArticle": [],
+        "bookArticle": [],
+        "grad_independent": [],
+        "grad_thesis": [],
+        "personalInfo": {
+            "code": "321463",
+            "department": "Computer Science",
+            "email": "suparwatchr@au.edu",
+            "firstName": "Suparwat",
+            "lastName": "Charoenvikrom",
+            "school": "Vincent Mary School of Science and Technology",
+            "telephone": "081-6591172",
+            "title": "lecturer"
+        },
+        "researchArticle": [
+            {
+                "title": "Software Engineering",
+                "weight": "3",
+                "contribution": "50"
+            },
+            {
+                "title": "Data Structure and Algorithm",
+                "weight": "3",
+                "contribution": "50"
+            }
+        ],
+        "sem1": [
+            {
+                "courseCode": "ITX3007",
+                "courseCredit": "3",
+                "courseTitle": "Software Engineering",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem2": [
+            {
+                "courseCode": "CSX3003",
+                "courseCredit": "3",
+                "courseTitle": "Data Structure and Algorithm",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem3": [],
+        "under_independent": [],
+        "under_senior": [
+            {
+                "topic": "BikeBuster",
+                "students": "Jeffrey Chong",
+                "grade": "A"
+            },
+            {
+                "topic": "Waterfall",
+                "students": "Gordon Ramsey",
+                "grade": "B"
+            },
+            {
+                "topic": "C++ utilization",
+                "students": "Uncle Roger",
+                "grade": "C"
+            }
+        ]
+    },
+    {
+        "AAStatus": "Pending",
+        "DeanStatus": "Pending",
+        "HRStatus": "Pending",
+        "IRASStatus": "Pending",
+        "ComStatus": "Pending",
+        "academicArticle": [],
+        "bookArticle": [],
+        "grad_independent": [],
+        "grad_thesis": [],
+        "personalInfo": {
+            "code": "123456",
+            "department": "Computer Science",
+            "email": "khainghtun@scitech.au.edu",
+            "firstName": "Khaing",
+            "lastName": "Sandar Htun",
+            "school": "Vincent Mary School of Science and Technology",
+            "telephone": "-",
+            "title": "Dr."
+        },
+        "researchArticle": [
+            {
+                "title": "Business System",
+                "weight": "3",
+                "contribution": "50"
+            },
+            {
+                "title": "Data Science",
+                "weight": "3",
+                "contribution": "50"
+            }
+        ],
+        "sem1": [
+            {
+                "courseCode": "ITX3003",
+                "courseCredit": "3",
+                "courseTitle": "Business System",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem2": [
+            {
+                "courseCode": "CSX2007",
+                "courseCredit": "3",
+                "courseTitle": "Data Science",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem3": [
+            {
+                "courseCode": "CSX2004",
+                "courseCredit": "3",
+                "courseTitle": "UI/UX Design and Prototyping",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "under_independent": [],
+        "under_senior": [
+            {
+                "topic": "Virtual reality utilization",
+                "students": "Sakata Kintoki",
+                "grade": "A"
+            },
+            {
+                "topic": "BlockLoop",
+                "students": "Aashish Ijaz",
+                "grade": "A"
+            },
+            {
+                "topic": "Augmented reality",
+                "students": "Thanatuch Wu",
+                "grade": "B+"
+            }
+        ]
+    },
+    {
+        "AAStatus": "Pending",
+        "DeanStatus": "Pending",
+        "HRStatus": "Pending",
+        "IRASStatus": "Pending",
+        "ComStatus": "Pending",
+        "academicArticle": [],
+        "bookArticle": [],
+        "grad_independent": [],
+        "grad_thesis": [],
+        "personalInfo": {
+            "code": "598624",
+            "department": "Computer Science",
+            "email": "gkwinley@scitech.au.edu",
+            "firstName": "Graham",
+            "lastName": "kenneth Winley",
+            "school": "Vincent Mary School of Science and Technology",
+            "telephone": "-",
+            "title": "Dr."
+        },
+        "researchArticle": [
+            {
+                "title": "Information Systems Analysis and Design",
+                "weight": "3",
+                "contribution": "50"
+            }
+        ],
+        "sem1": [
+            {
+                "courseCode": "CSX4101",
+                "courseCredit": "3",
+                "courseTitle": "Information Systems Analysis and Design",
+                "hours_per_week": "3",
+                "no_of_section": "1"
+            }
+        ],
+        "sem2": [],
+        "sem3": [],
+        "under_independent": [],
+        "under_senior": [
+            {
+                "topic": "UI/UX in 2077",
+                "students": "Chalita Dokbua",
+                "grade": "A"
+            },
+            {
+                "topic": "Watermelon Storage",
+                "students": "Renatta Andrea Fernadez Ramirez",
+                "grade": "B+"
+            },
+            {
+                "topic": "Java implementation",
+                "students": "Saw Zwe Wai Yan",
+                "grade": "B-"
+            }
+        ]
+    }
+]
